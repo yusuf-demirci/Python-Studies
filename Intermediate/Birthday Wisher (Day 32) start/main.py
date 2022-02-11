@@ -8,7 +8,7 @@ today = (datetime.now().month, datetime.now().day)
 dates = pandas.read_csv("birthdays.csv")
 
 my_email = "python.trial09@gmail.com"
-password = "# pythontrial"
+password = "*********"
 
 for row in dates.itertuples():
     if today == (row.month, row.day):
