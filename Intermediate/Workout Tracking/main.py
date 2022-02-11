@@ -2,8 +2,8 @@ import requests
 from datetime import datetime
 
 
-APP_ID = "955fb082"
-API_KEY = "528be99fdaf7a6bbd814c0ad19cf5f41"
+APP_ID = "Your App ID"
+API_KEY = "Your API Key"
 nutritionix_endpoint = "https://trackapi.nutritionix.com"
 USER_NAME = "011c8e45a9810491ce236612babfb554"
 PROJECT_NAME = "workoutTracking"
