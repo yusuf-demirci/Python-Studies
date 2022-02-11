@@ -4,10 +4,10 @@ from twilio.rest import Client
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-STOCK_API_KEY = "025WXSB86FJYVT2G"
-NEWS_API_KEY = "eb080aff8a71435ea12a0d861dd0ce6e"
-ACCOUNT_SID = "ACa4af4229630de5bde56d8fdef36e3e7e"
-AUTH_TOKEN = "ffea79a6ad462e531d7110f87decdc16"
+STOCK_API_KEY = "Your Api Key"
+NEWS_API_KEY = "Your News Api Key"
+ACCOUNT_SID = "Your Account ID"
+AUTH_TOKEN = "Your Auth Token"
 
 parameters1 = {
     "function": "TIME_SERIES_DAILY",
@@ -51,7 +51,7 @@ if dif_percent > 3:
             stock = f"{STOCK}: 🔻-{round(dif_percent), 2}% "
 
         message = client.messages.create(
-            to="+905541510171", 
+            to="+905555555555", 
             from_="+12084860229",
             body=f"{stock}\n"
                  f"Headline: {message_title}\n"
